@@ -30,7 +30,7 @@ public class FileUploadClient {
         entityBuilder.addBinaryBody("file", cv, ContentType.APPLICATION_OCTET_STREAM, "CV_Marco_Di_Dionisio.pdf");
         entityBuilder.addTextBody("firstname", "Marco", ContentType.TEXT_PLAIN);
         entityBuilder.addTextBody("lastname", "Di Dionisio", ContentType.TEXT_PLAIN);
-        entityBuilder.addTextBody("email", "marco.dd23@gmail.com", ContentType.TEXT_PLAIN);
+        entityBuilder.addTextBody("email", "fake-mail@gmail.com", ContentType.TEXT_PLAIN);
         entityBuilder.addTextBody("jobtitle", "Senior Java Developer Role", ContentType.TEXT_PLAIN);
         entityBuilder.addTextBody("source", "Salt Recruitment Website", ContentType.TEXT_PLAIN);
         HttpEntity entity = entityBuilder.build();
